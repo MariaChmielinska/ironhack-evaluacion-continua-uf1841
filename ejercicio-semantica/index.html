@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+    <title>semantic</title>
     <meta charset="utf-8">
     <style>
         body {
@@ -84,9 +85,9 @@
 </head>
 
 <body>
-    <div class="masthead">
+    <header class="masthead">
         <h1>New York Times</h1>
-        <div style="display: flex; gap: 1rem;">
+        <nav style="display: flex; gap: 1rem;">
             <div>
                 <a href="world.html">Mundo</a>
             </div>
@@ -96,10 +97,10 @@
             <div>
                 <a href="local.html">Local</a>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="content">
-        <div class="main-article">
+        <main class="main-article">
             <div class="article-heading">
                 <h2>Incendio devastador en California</h2>
                 <p>15 de abril de 2024</p>
@@ -125,7 +126,7 @@
                 <p>Las autoridades también están advirtiendo sobre la mala calidad del aire en la región, instando a los
                     residentes a tomar precauciones y permanecer en el interior siempre que sea posible.</p>
             </div>
-            <div class="forest">
+            <section class="forest">
                 <h3>Incendios forestales en aumento</h3>
                 <ul>
                     <li>Los incendios forestales están aumentando en frecuencia y magnitud en todo el mundo, exacerbados
@@ -135,33 +136,33 @@
                     <li>Se requieren medidas urgentes a nivel local, nacional y global para abordar la crisis climática
                         y proteger el medio ambiente.</li>
                 </ul>
-            </div>
+            </section>
             <div class="bottom">
                 Contacta al autor en <a href="mailto:kyle.coberly@gmail.com">kyle.coberly@gmail.com</a>
             </div>
-        </div>
-        <div class="other-news">
+        </main>
+        <aside class="other-news">
             <h2>También en las noticias</h2>
-            <div class="collapsabile">
-                <div class="teaser-text">Desfile del Día de la Independencia</div>
+            <article class="collapsabile">
+                <h3 class="teaser-text">Desfile del Día de la Independencia</h3>
                 <p>Miles de personas se reunieron en las calles de la ciudad para celebrar el Día de la Independencia
                     con un colorido desfile y eventos festivos.</p>
-            </div>
-            <div class="collapsabile">
-                <div class="teaser-text">Nuevas restricciones de viaje</div>
+            </article>
+            <article class="collapsabile">
+                <h3 class="teaser-text">Nuevas restricciones de viaje</h3>
                 <p>El gobierno anuncia nuevas restricciones de viaje debido al aumento de casos de COVID-19 en todo el
                     país, afectando a millones de personas que planeaban vacaciones.</p>
-            </div>
-            <div class="collapsabile">
-                <div class="teaser-text">Lanzamiento de un nuevo satélite</div>
+            </article>
+            <article class="collapsabile">
+                <h3 class="teaser-text">Lanzamiento de un nuevo satélite</h3>
                 <p>Una empresa espacial lanza con éxito un nuevo satélite de comunicaciones que proporcionará cobertura
                     mejorada en áreas remotas y rurales.</p>
-            </div>
-        </div>
+            </article>
+        </aside>
     </div>
-    <div class="page-bottom">
+    <footer class="page-bottom">
         <span class="legal">Copyright 2024, New York Times</span>
-    </div>
+    </footer>
 </body>
 
 </html>
