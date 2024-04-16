@@ -5,3 +5,13 @@
 /* h1 {
     color: red;
 } */
+
+.published-date{
+   color: #F77D00
+}
+
+.lg:py-3 bg-black site-header__body relative z-20 py-2 {
+   background-color:rgb(132, 0, 197);
+}
+.container {
+  background-color: rgb(132, 0, 197);}
