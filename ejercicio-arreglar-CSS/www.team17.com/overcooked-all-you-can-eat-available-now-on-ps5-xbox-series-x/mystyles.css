@@ -6,12 +6,18 @@
     color: red;
 } */
 
-.published-date{
+.published-date {
    color: #F77D00
 }
 
-.lg:py-3 bg-black site-header__body relative z-20 py-2 {
-   background-color:rgb(132, 0, 197);
+.site-header__body.bg-black {
+   background-color:rgba(132, 0, 197,0.8);
 }
-.container {
-  background-color: rgb(132, 0, 197);}
+
+.post-content h4 {
+   text-align: center ;
+}
+
+.logos-social-networks {
+   justify-content: center;
+}
