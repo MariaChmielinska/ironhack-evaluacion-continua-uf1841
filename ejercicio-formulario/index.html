@@ -8,7 +8,7 @@
     <style>
         .shirt {
             width: 400px;
-            height: 400px;
+            height: 800px;
             background-color: #ffffff;
 
             text-align: center;
@@ -29,10 +29,19 @@
 <body>
     <div class="container">
         <h2>Completa el formulario</h2>
-        <form action="#" method="" class="form" id="shirt-form">
+        <form action="https://request-data.onrender.com/register-tshirt" method="post" class="form" id="shirt-form">
             <div class="form-group">
                 <label for="words">Texto (máximo 10 caracteres):</label>
-                <input type="text" id="words" name="words" required>
+                <input type="text" id="words" name="words" maxlength="10" required>
+                
+               <label for="size">Select your Size</label>
+               <select name="size" id="size" >
+                <option value="S">S (small)</option>
+                <option value="M" selected>M (medium)</option>
+                <option value="L">L (large)</option>
+               </select>
+               <label for="color">Color</label>
+               <input type="color" id="color" name="color">
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar">
